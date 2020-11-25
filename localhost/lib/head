@@ -1,0 +1,11 @@
+<form name="myform" action="index.php" method="post">
+	<div>
+		<textarea name = "text" method="post">
+		</textarea>
+	</div>
+<br>
+	<div>
+		<input type="submit" value="Отправка ссобщения" name="myform">
+		<p name="text"><?=$x?><p>
+	</div>
+</form>
